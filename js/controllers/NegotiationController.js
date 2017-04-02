@@ -19,6 +19,7 @@ class NegotiationController {
 
     this._negotiations.addNegotiation(this._createNegotiation());
     this._negotiationView.update(this._negotiations.negotiations);
+
     this._message.text = 'Negotiation saved successfully';
     this._notificationView.update(this._message);
 
